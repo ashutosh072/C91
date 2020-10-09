@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[chrome Launched]]>
+    </line>
+    <line>
+      <![CDATA[यह सामान जिसका आर्डर आईडी 2121275 है। यह सामान आपको रिटर्न करना होगा क्युकी यह सामान कस्टमर ने कैंसिल कर दिया है। कृपया इस सामान को रिटर्न मार्क करें।]]>
+    </line>
+    <line>
+      <![CDATA[READY TO RETURN ORDER  ID SCAN SUCCESSFULLY THROUGH GLOBAL SCANNER  ]]>
+    </line>
+    <line>
+      <![CDATA[ScriptName   test_ReadyToReturnFunctionality_Throught_globalScanner]]>
+    </line>
+    <line>
+      <![CDATA[browser is closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-10-09T15:23:45 IST" name="Default suite" finished-at="2020-10-09T15:24:10 IST" duration-ms="25211">
+    <groups>
+    </groups>
+    <test started-at="2020-10-09T15:23:45 IST" name="Default test" finished-at="2020-10-09T15:24:10 IST" duration-ms="25211">
+      <class name="com.courier91.script.TestC91">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.courier91.script.TestC91@65466a6a]" started-at="2020-10-09T15:23:45 IST" name="setUp" finished-at="2020-10-09T15:23:59 IST" duration-ms="13984" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[chrome Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_ReadyToReturnFunctionality_Throught_globalScanner()[pri:11, instance:com.courier91.script.TestC91@65466a6a]" started-at="2020-10-09T15:23:59 IST" name="test_ReadyToReturnFunctionality_Throught_globalScanner" finished-at="2020-10-09T15:24:10 IST" duration-ms="11158" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[यह सामान जिसका आर्डर आईडी 2121275 है। यह सामान आपको रिटर्न करना होगा क्युकी यह सामान कस्टमर ने कैंसिल कर दिया है। कृपया इस सामान को रिटर्न मार्क करें।]]>
+            </line>
+            <line>
+              <![CDATA[READY TO RETURN ORDER  ID SCAN SUCCESSFULLY THROUGH GLOBAL SCANNER  ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_ReadyToReturnFunctionality_Throught_globalScanner -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.courier91.script.TestC91@65466a6a]" started-at="2020-10-09T15:24:10 IST" name="tearDown" finished-at="2020-10-09T15:24:10 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_ReadyToReturnFunctionality_Throught_globalScanner status=SUCCESS method=TestC91.test_ReadyToReturnFunctionality_Throught_globalScanner()[pri:11, instance:com.courier91.script.TestC91@65466a6a] output=यह सामान जिसका आर्डर आईडी 2121275 है। यह सामान आपको रिटर्न करना होगा क्युकी यह सामान कस्टमर ने कैंसिल कर दिया है। कृपया इस सामान को रिटर्न मार्क करें।]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScriptName   test_ReadyToReturnFunctionality_Throught_globalScanner]]>
+            </line>
+            <line>
+              <![CDATA[browser is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.courier91.script.TestC91 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
